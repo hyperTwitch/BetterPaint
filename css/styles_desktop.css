@@ -1,0 +1,41 @@
+/* DESKTOP STYLES */
+.mobile {
+	display: none;
+}
+
+
+
+/* HERO SECTION */
+#hero {
+	padding: 198px 0 0 70px;
+	height: 450px;
+}
+
+
+
+/* EMAIL SIGNUP SECTION */
+#emailSignup input[type="email"] {
+	width: 500px;
+}
+
+
+
+/* FOOTER */
+footer {
+	padding: 70px 70px 0;
+	height: 450px;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer > nav {
+	flex: 1 1 75%;
+	display: flex;
+	justify-content: space-between;
+}
+footer > nav > ul {
+	flex: 1;
+}
+footer > #copyright {
+	flex: 1 1 25%;
+}
